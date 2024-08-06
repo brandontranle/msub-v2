@@ -1,9 +1,9 @@
-import { Container } from '@mui/material';
+import { Box } from '@mui/material';
 import {Banner} from '../components/Home/Banner';
 
 const Home = () => {
     return (
-        <Container
+        <Box
             sx={{
                 bgcolor: 'background.paper',
                 height: '100vh',
@@ -15,7 +15,7 @@ const Home = () => {
             <Banner />
             
             
-        </Container>
+        </Box>
 
     );
 };
