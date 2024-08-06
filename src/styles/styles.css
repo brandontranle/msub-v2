@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+html{
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #f7faff;
+    scroll-behavior: smooth;
+}
+
